@@ -1,0 +1,12 @@
+//$Paragraphfeatures:
+$Colorheader:  #c0eea9;
+$Colorprimary: #97d279;
+$Padding: 20px;
+
+
+//Mixins
+@mixin textstyle {
+  max-width: 700px;
+  text-align: center;
+  padding: $Padding;
+}
